@@ -1,0 +1,147 @@
+.home__data__res__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 1200px;
+  height: 60vh;
+  overflow: hidden;
+}
+
+.home__data__res__container .home__res__header {
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  margin: 15px auto;
+}
+
+.home__data__res__container .home__data__res__table {
+  width: 100%;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.home__data__res__container .home__data__res__table .home__res__book__div {
+  background-color: #e3e6e7;
+  width: 45%;
+  margin: auto;
+  height: 23vh;
+  -webkit-box-shadow: 2px 3px 5px 3px #000000;
+          box-shadow: 2px 3px 5px 3px #000000;
+}
+
+.home__data__res__container .home__data__res__table .home__res__book__div:hover {
+  background-color: white;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.home__data__res__container .home__data__res__table .home__res__book__div .home__book__info__link {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.home__data__res__container .home__data__res__table .home__res__book__div .home__book__info__link .home__book__info {
+  color: #464653;
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-left: 5vh;
+  margin-top: 5vh;
+}
+
+.home__data__res__container .home__data__res__table .home__res__book__div .home__book__info__link .home__res__img {
+  height: 20vh;
+  width: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.home__data__res__container .home__data__res__table .home__res__book__div .home__book__info__link .home__res__img img {
+  height: 100%;
+}
+
+.home__data__res__container .home__pagination__container {
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.home__data__res__container .pagination__btns {
+  width: 100%;
+  height: 40px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home__data__res__container .pagination__btns .pagination__btn {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: #ffffff;
+  color: blue;
+  cursor: pointer;
+}
+
+.home__data__res__container .pagination__btns .pagination__btn:hover {
+  background-color: blue;
+  color: white;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.home__data__res__container .pagination__btns .next__btn {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: #ffffff;
+  color: blue;
+  cursor: pointer;
+}
+
+.home__data__res__container .pagination__btns .next__btn:hover {
+  background-color: blue;
+  color: white;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.home__data__res__container .pagination__btns .active__btn {
+  background-color: blue;
+  color: white;
+}
+/*# sourceMappingURL=SearchResults.css.map */

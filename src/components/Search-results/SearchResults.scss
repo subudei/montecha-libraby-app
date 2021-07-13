@@ -1,0 +1,115 @@
+.home__data__res__container {
+  // background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  // flex-wrap: wrap;
+  width: 1200px;
+  height: 60vh;
+  overflow: hidden;
+  // margin-bottom: 50px;
+
+  .home__res__header {
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    margin: 15px auto;
+  }
+  .home__data__res__table {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    .home__res__book__div {
+      background-color: rgb(227, 230, 231);
+      width: 45%;
+      margin: auto;
+      height: 23vh;
+      // -webkit-box-shadow: 5px 5px 15px 5px #000000;
+      box-shadow: 2px 3px 5px 3px #000000;
+      // border: 2px solid black;
+      // border-radius: 10px;
+      &:hover {
+        background-color: rgb(255, 255, 255);
+        transition: 0.2s;
+      }
+
+      .home__book__info__link {
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        cursor: pointer;
+        display: flex;
+        overflow: hidden;
+
+        .home__book__info {
+          color: rgb(70, 70, 83);
+          width: 50%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          margin-left: 5vh;
+          margin-top: 5vh;
+        }
+        .home__res__img {
+          height: 20vh;
+          width: auto;
+          margin: auto;
+          overflow: hidden;
+
+          img {
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .home__pagination__container {
+    margin: auto;
+    margin-bottom: 5px;
+  }
+
+  .pagination__btns {
+    width: 100%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .pagination__btn {
+      padding: 10px;
+      margin: 8px;
+      border-radius: 5px;
+      border: 1px solid black;
+      background-color: #ffffff;
+      color: blue;
+      cursor: pointer;
+      &:hover {
+        background-color: blue;
+        color: white;
+        transition: 0.2s;
+      }
+    }
+    .next__btn {
+      padding: 10px;
+      margin: 8px;
+      border-radius: 5px;
+      border: 1px solid black;
+      background-color: #ffffff;
+      color: blue;
+      cursor: pointer;
+      &:hover {
+        background-color: blue;
+        color: white;
+        transition: 0.2s;
+      }
+    }
+    .active__btn {
+      background-color: blue;
+      color: white;
+    }
+  }
+}

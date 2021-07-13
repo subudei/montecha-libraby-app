@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import HomePage from "./pages/Home/HomePage";
+
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import BookPage from "./pages/Book/BookPage";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Route exact path="/" component={HomePage} />
+        <Route path="/works/:id" component={BookPage} />
+      </Router>
     </div>
   );
 }
 
 export default App;
+
+// yarn add react-router-dom / npm install react-router-dom
+
+//   yarn add sass /  npm install -g sass
+//   yarn add react-paginate / npm install react-paginate --save
