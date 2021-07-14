@@ -4,7 +4,6 @@ import "./HomePage.css";
 import SearchResults from "../../components/Search-results/SearchResults";
 
 function HomePage() {
-  const api = `http://openlibrary.org/search.json?title=`;
   const [input, setInput] = useState("");
   const [search, setSearch] = useState(null);
   const [data, setData] = useState({});
@@ -21,7 +20,9 @@ function HomePage() {
 
   const fetchBook = async () => {
     try {
-      const response = await fetch(api + `${search}`);
+      const response = await fetch(
+        `http://openlibrary.org/search.json?title=${search}`
+      );
       const db = await response.json();
       setData(await db);
     } catch (err) {

@@ -1,0 +1,38 @@
+.book__page__container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(233, 233, 233);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .book__page__title {
+    margin: 10vh auto;
+  }
+  .book__page__desr__container {
+    width: 90%;
+
+    .book__page__descr {
+      font-style: italic;
+    }
+  }
+
+  .book__page__home__btn {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(70, 70, 83);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    &:hover {
+      color: rgb(70, 70, 83);
+      background-color: white;
+      transition: 0.2s;
+    }
+  }
+}

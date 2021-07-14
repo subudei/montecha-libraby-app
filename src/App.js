@@ -1,8 +1,8 @@
 import "./App.css";
-import HomePage from "./pages/Home/HomePage";
 
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import HomePage from "./pages/Home/HomePage";
 import BookPage from "./pages/Book/BookPage";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (

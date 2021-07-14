@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 function SearchResults({ data }) {
   console.log(data.docs);
   const [pageNumber, setPageNumber] = useState(0);
-
   const booksPerPage = 4;
   const pagesVisited = pageNumber * booksPerPage;
   const pageCount = Math.ceil(data.docs.length / booksPerPage);

@@ -1,0 +1,55 @@
+.book__page__container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #e9e9e9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.book__page__container .book__page__title {
+  margin: 10vh auto;
+}
+
+.book__page__container .book__page__desr__container {
+  width: 90%;
+}
+
+.book__page__container .book__page__desr__container .book__page__descr {
+  font-style: italic;
+}
+
+.book__page__container .book__page__home__btn {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #464653;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.book__page__container .book__page__home__btn:hover {
+  color: #464653;
+  background-color: white;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+/*# sourceMappingURL=Book.css.map */
