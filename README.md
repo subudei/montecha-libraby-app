@@ -23,14 +23,15 @@ git clone  https://github.com/subudei/montecha-libraby-app.git
  
 
 ## Packages added 
-React Router Dom (
+- React Router Dom (
     yarn add react-router-dom / npm install react-router-dom
 ),
 
-SASS (
+- SASS (
    yarn add sass /  npm install -g sass 
-)
-React Paginate (
+), 
+
+- React Paginate (
     yarn add react-paginate / npm install react-paginate --save 
 )
 
